@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper System</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+            <p>جاري التحميل...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <!-- <i class="fas fa-cash-register"></i> -->
+                    <img src="assets/logoW.png" alt="Hyper System Logo" class="logo-image" width="50">
+                </div>
+                <span class="logo-text">Hyper<span> System</span></span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">المميزات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#screenshots" class="nav-link">واجهات التطبيق</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">الباقات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">اتصل بنا</a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#download" class="btn btn-secondary">تجربة مجانية</a>
+                <a href="#download" class="btn btn-primary">تحميل التطبيق</a>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <div class="hero-badge">
+                        <span>🔄 النسخة 1.0</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">ثورة جديدة في</span>
+                        <span class="title-line highlight">إدارة نقاط البيع</span>
+                    </h1>
+                    <p class="hero-description">
+                        نظام متكامل يجمع بين القوة والسهولة في إدارة متجرك. 
+                        طورنا كل شيء ليواكب احتياجاتك ويساعدك على النمو.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">متجر يستخدم النظام</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">معدل رضا العملاء</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني متواصل</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#download" class="btn btn-primary btn-large">
+                            <i class="fas fa-rocket"></i>
+                            ابدأ الآن مجانًا
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="main-app-preview">
+                        <div class="app-image-placeholder">
+                            <img class="app-image" src="assets/cashier.png" alt="App Screenshot">
+                            <!-- <i class="fas fa-laptop"></i> -->
+                        </div>
+                        <div class="glow-effect"></div>
+                    </div>
+                    <div class="floating-cards">
+                        <div class="card card-1">
+                            <div class="card-content">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="card card-2">
+                            <div class="card-content">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <div class="card card-3">
+                            <div class="card-content">
+                                <i class="fa-solid fa-receipt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>قم بالتمرير لاكتشاف المزيد</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">مميزات لا مثيل لها</h2>
+                <p class="section-subtitle">اكتشف القوة الحقيقية لنظام إدارة متجرك</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>سرعة فائقة</h3>
+                    <p>معالجة فورية للعمليات مع واجهة مستخدم سلسة لا تعرف التوقف</p>
+                    <div class="feature-badge">جديد</div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>إدارة المخزون</h3>
+                    <p>تتبع المخزون بشكل تلقائي مع تنبيهات عند انخفاض الكميات.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>إدارة العملاء</h3>
+                    <p>حفظ بيانات العملاء وتتبع مشترياتهم وتقديم عروض مخصصة.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>حماية متقدمة</h3>
+                    <p>نظام أمان متعدد الطبقات يحمي بياناتك من أي تهديدات</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-receipt"></i>
+                    </div>
+                    <h3>الفواتير والإيصالات</h3>
+                    <p>إنشاء فواتير وإيصالات احترافية قابلة للتخصيص حسب متطلباتك.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>دعم فني 24/7</h3>
+                    <p>فريق دعم فني متاح على مدار الساعة لمساعدتك في أي وقت</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">استكشف واجهاتنا</h2>
+                <p class="section-subtitle">تصميم أنيق وسهل الاستخدام يجعل العمل متعة</p>
+            </div>
+
+            <div class="screenshots-container" data-aos="fade-up">
+                <div class="screenshot-main">
+                    <div class="device-frame">
+                        <div class="screenshot-image active">
+                            <div class="image-placeholder">
+                                <picture>
+                                    <source srcset="assets/Device_M.png" media="(max-width: 760px)">
+                                    <img class="screenshot-img" src="assets/Device_L.png" alt="واجهة تطبيق نقاط البيع تظهر شاشة لوحة التحكم مع قوائم جانبية وأزرار تحكم، التصميم عصري بألوان هادئة، النص الظاهر: Hyper System، الجو العام احترافي وهادئ">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="screenshot-image">
+                            <div class="image-placeholder">
+                                <div class="image-placeholder">
+                                <picture>
+                                    <source srcset="assets/dashboard_M.png" media="(max-width: 760px)">
+                                    <img class="screenshot-img" src="assets/dashboard_L.png" alt="واجهة تطبيق نقاط البيع تظهر شاشة لوحة التحكم مع قوائم جانبية وأزرار تحكم، التصميم عصري بألوان هادئة، النص الظاهر: Hyper System، الجو العام احترافي وهادئ">
+                                </picture>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="screenshot-image">
+                            <div class="image-placeholder">
+                                <div class="image-placeholder">
+                                <picture>
+                                    <source srcset="assets/Sales_M.png" media="(max-width: 760px)">
+                                    <img class="screenshot-img" src="assets/Sales_L.png" alt="واجهة تطبيق نقاط البيع تظهر شاشة لوحة التحكم مع قوائم جانبية وأزرار تحكم، التصميم عصري بألوان هادئة، النص الظاهر: Hyper System، الجو العام احترافي وهادئ">
+                                </picture>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="screenshot-image">
+                            <div class="image-placeholder">
+                                <div class="image-placeholder">
+                                <picture>
+                                    <source srcset="assets/dashboard_M.png" media="(max-width: 760px)">
+                                    <img class="screenshot-img" src="assets/dashboard_L.png" alt="واجهة تطبيق نقاط البيع تظهر شاشة لوحة التحكم مع قوائم جانبية وأزرار تحكم، التصميم عصري بألوان هادئة، النص الظاهر: Hyper System، الجو العام احترافي وهادئ">
+                                </picture>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="screenshots-nav">
+                    <div class="nav-item active" data-target="0">
+                        <div class="nav-preview">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <span>لوحة التحكم</span>
+                    </div>
+                    <div class="nav-item" data-target="1">
+                        <div class="nav-preview">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <span>واجهة المبيعات</span>
+                    </div>
+                    <div class="nav-item" data-target="2">
+                        <div class="nav-preview">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <span>إدارة البيع</span>
+                    </div>
+                    <div class="nav-item" data-target="3">
+                        <div class="nav-preview">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <span>التقارير</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">باقات متنوعة تناسب احتياجاتك</h2>
+                <p class="section-subtitle">اختر الباقة التي تناسب متجرك وابدأ رحلتك نحو النجاح</p>
+            </div>
+
+            <div class="pricing-cards">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>الاساسية</h3>
+                        <div class="price">
+                            <span class="currency">د.ع</span>
+                            <span class="amount">10,000</span>
+                            <span class="period">/ شهرياً</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> إدارة المبيعات الأساسية</li>
+                        <li><i class="fas fa-check"></i> تقارير المبيعات اليومية</li>
+                        <li><i class="fas fa-check"></i> دعم فني عبر البريد</li>
+                        <li><i class="fas fa-times"></i> دعم فني مخصص 24/7</li>
+                        <li><i class="fas fa-times"></i> تحديثات دورية</li>
+                    </ul>
+                    <a href="#download" class="btn btn-secondary btn-block">اختر الباقة</a>
+                </div>
+
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-badge">الأكثر شيوعاً</div>
+                    <div class="pricing-header">
+                        <h3>المتطورة</h3>
+                        <div class="price">
+                            <span class="currency">د.ع</span>
+                            <span class="amount">99,000</span>
+                            <span class="period">/ دائم</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> كل مميزات الباقة الأساسية</li>
+                        <li><i class="fas fa-check"></i> إدارة المخزون المتقدمة</li>
+                        <li><i class="fas fa-check"></i> تقارير تحليلية متقدمة</li>
+                        <li><i class="fas fa-check"></i> دعم فني هاتفي</li>
+                        <li><i class="fas fa-check"></i> تحديثات حصرية وسريعة</li>
+                    </ul>
+                    <a href="#download" class="btn btn-primary btn-block">اختر الباقة</a>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3>الشركات</h3>
+                        <div class="price">
+                            <span class="currency">د.ع</span>
+                            <span class="amount">60,000</span>
+                            <span class="period">/ سنوي</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> كل مميزات الباقة المتطورة</li>
+                        <li><i class="fas fa-check"></i> إدارة متعددة الفروع</li>
+                        <li><i class="fas fa-check"></i> تقارير مخصصة</li>
+                        <li><i class="fas fa-check"></i> دعم فني مخصص 24/7</li>
+                        <li><i class="fas fa-check"></i> تحديثات حصرية وسريعة</li>
+                    </ul>
+                    <a href="#download" class="btn btn-secondary btn-block">اختر الباقة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="download">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>جاهز لبدء رحلتك معنا؟</h2>
+                <p>انضم إلى آلاف المتاجر الناجحة التي تستخدم نظامنا</p>
+                <div class="cta-actions">
+                    <a href="#download" class="btn btn-primary btn-large">
+                        <i class="fas fa-download"></i>
+                        تحميل التطبيق
+                    </a>
+                    <a href="https://www.instagram.com/hyp.system/" target="_blank" class="btn btn-secondary btn-large">
+                        <i class="fas fa-comments"></i>
+                        تواصل معنا
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-aos="fade-up">
+                    <div class="footer-logo">
+                        <!-- <i class="fas fa-cash-register"></i> -->
+                        <img src="assets/logoW.png" alt="Hyper System Logo" class="logo-image" width="50">
+                        <span>Hyper<span> System</span></span>
+                    </div>
+                    <p class="footer-description">
+                        نظام نقاط البيع المتطور الذي يغير طريقة إدارة متجرك نحو الأفضل
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61581137251698" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/hyp.system/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#screenshots">واجهات التطبيق</a></li>
+                        <li><a href="#pricing">الباقات</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                    <h4>الدعم</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">الدليل الاستخدام</a></li>
+                        <li><a href="#">الفيديوات التعليمية</a></li>
+                        <li><a href="https://www.instagram.com/hyp.system/" target="_blank">اتصل بالدعم</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="300">
+                    <h4>اتصل بنا</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Hyperdashsys@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+964 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>العراق</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hyper System. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/three-scene.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
